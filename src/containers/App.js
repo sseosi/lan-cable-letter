@@ -31,6 +31,8 @@ const Bottom = styled.div`
 
 function App() {
 
+  // dev가 제대로 작동되는지 확인!
+
   const [todos, setTodos] = useState([]);
 
   const renderTodos = () => {
